@@ -1,4 +1,6 @@
 const root=document.documentElement;
+const heroHeading=document.querySelector('.hero-v2 h1');
+if(heroHeading){const title=document.createElement('p');title.className='project-title';title.innerHTML='<span>Proiectul</span>Cățeluș cu părul creț';heroHeading.before(title)}
 window.addEventListener('load',()=>setTimeout(()=>root.classList.add('loaded'),250));
 const menu=document.querySelector('.menu-toggle'),links=document.querySelector('.nav-links');
 menu?.addEventListener('click',()=>{const open=links.classList.toggle('open');menu.setAttribute('aria-expanded',String(open));menu.textContent=open?'Închide':'Meniu'});
