@@ -98,6 +98,7 @@
 .manifesto-column>p:not(.section-tag){font-size:clamp(17px,1.45vw,21px);line-height:1.55;color:#596168;margin:0;max-width:610px}
 .manifesto-column>p:not(.section-tag)+p{margin-top:24px}
 .origin-column{background:linear-gradient(90deg,#e8edf080,transparent 82%)}
+.inline-project-title{font-weight:800;color:var(--ti);white-space:nowrap;text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:4px;text-decoration-color:#3e658d55}
 @media(max-width:760px){.manifesto .manifesto-grid{grid-template-columns:1fr}.manifesto-column,.manifesto-column+.manifesto-column{padding:42px 0;border-left:0}.manifesto-column+.manifesto-column{border-top:1px solid var(--line)}.origin-column{background:linear-gradient(180deg,#e8edf080,transparent)}}
 .depth-grid:has(article:nth-child(3):last-child){grid-template-columns:repeat(3,1fr)}
 .path-head>div{max-width:840px}.path-intro{max-width:650px;color:#aeb1b5;font-size:17px;line-height:1.55;margin:28px 0 0}
