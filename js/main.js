@@ -17,6 +17,6 @@ const money=value=>value.toLocaleString('ro-RO')+' €';
 document.querySelector('#raised').textContent=money(fundraising.raised);
 document.querySelector('#goal').textContent=money(fundraising.goal);
 document.querySelector('#percent').textContent=Math.round(fundingPercent)+'%';
-document.querySelector('#remaining').textContent='strâns până acum';
+document.querySelector('#remaining').textContent='Mai sunt necesari '+money(Math.max(0,fundraising.goal-fundraising.raised));
 document.querySelector('#progress').style.width=fundingPercent+'%';
 document.querySelector('.progress-track').setAttribute('aria-valuenow',String(fundraising.raised));
