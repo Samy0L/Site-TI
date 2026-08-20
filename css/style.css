@@ -118,3 +118,6 @@
 .material-caption{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px;align-items:center;padding:20px 2px;border-top:1px solid var(--ink)}
 .material-caption>div{min-width:0}.material-caption b{display:block;color:var(--ti);font-size:10px;letter-spacing:.15em;margin-bottom:7px}.material-caption strong{display:block;font:700 clamp(16px,1.5vw,20px)/1.3 Manrope;overflow-wrap:break-word}.material-caption i{font-style:normal;font-size:26px}
 @media(max-width:760px){.material-gallery{grid-template-columns:1fr}.material-image{height:min(125vw,650px)}}
+
+/* Bara principală rămâne vizibilă în timpul derulării. */
+header{position:sticky;inset:auto;top:0;background:var(--paper);z-index:20}
